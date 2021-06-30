@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% if session['prof']%}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Setting Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+       <div class="navbar-header">
+        <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+       aria-controls="navbar"> -->
+        <!-- <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> -->
+        <!-- </button> -->
+        <!-- <li class="nav-item">
+            <a class="navbar-brand" href="/ps_portal">Paper Setter Portal</a>
+        </li> -->
+        
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+        <li class="nav-item">
+        <a class="nav-link" href="/profportal">Home</a>
+        </li>
+       
+        <li class="nav-item">
+       <a class="nav-link" href="/profview">See & Edit Questios</a>
+       </li>
+       
+       <li class="nav-item">
+       <a class="nav-link" href="test_timings">Set Test Period</a>
+       </li>
+       
+        <li class="nav-item">
+        <a class="nav-link" href="/profsignout">Signout</a>
+        </li>
+       
+       
+        </ul>
+        </div>
+        </div>
+        </nav>
+       {% block content %} {% endblock %}
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        </body>
+        {% else %}
+        <h2> Unauthorized </h2>
+        {% endif %}
+    
+</body>
+</html>

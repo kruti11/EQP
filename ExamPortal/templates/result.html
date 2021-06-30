@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Result</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a class="navbar-brand logo_h" href="home.html"
+            ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse offset"
+            id="navbarSupportedContent"
+          >
+            <ul class="nav navbar-nav menu_nav ml-auto">
+              <li class="nav-item active">
+                  {% if session['name'] %}
+                <a class="nav-link" href="/">Home</a>
+              </li>
+
+              <li class="nav-item ">
+                <a class="nav-link" href="/myprofile">My Profile</a>
+              </li>
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="/rankings ">Leaderboard</a>
+              </li>
+
+              
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="/signout">Logout</a>
+              </li>
+
+              <h1 class="container my-30 " style="padding-top: 30px;">Result is {{res}}</h1>
+                {% else %}
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="/questions">Test</a>
+              </li>
+
+              
+            
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+      </nav>
+</body>
+</html>
