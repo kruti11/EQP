@@ -7,7 +7,7 @@ stipulated time. Also consists of timer and once it goes off. quiz will be submi
 
 After completing the questionnaire, the candidate may see his or her grades in a ranking.
 
-## Home Page to login as Paper Setter or student
+### Home Page to login as Paper Setter or student
 
 
 
