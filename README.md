@@ -1,11 +1,13 @@
 # EQP
-A web application for conducting quiz is developed where question setter can modify the questions when required.Student can register them selves and can give test according to
+A web application for conducting quiz is developed where question setter can modify the questions when required.
+
+Student can register them selves and can give test according to
 
 stipulated time. Also consists of timer and once it goes off. quiz will be submitted automatically.
 
 After completing the questionnaire, the candidate may see his or her grades in a ranking.
 
-Home Page to login as Paper Setter or student
+# Home Page to login as Paper Setter or student
 
 
 
@@ -15,7 +17,7 @@ Home Page to login as Paper Setter or student
 
 
 
-Student registration 
+# Student registration 
 
 
 
@@ -25,7 +27,7 @@ Student registration
 
 
 
-Student Login Page
+# Student Login Page
 
 
 
@@ -35,7 +37,7 @@ Student Login Page
 
 
 
-Question Setter Login Page
+# Question Setter Login Page
 
 
 
@@ -44,7 +46,7 @@ Question Setter Login Page
 
 
 
-Questions to be added
+# Questions to be added
 
 
 
@@ -52,7 +54,7 @@ Questions to be added
 
 
 
-Instructions Page
+# Instructions Page
 
 
 ![op6](https://user-images.githubusercontent.com/66712494/133869538-4773f851-3caf-4aaa-9dc3-764616e88fb1.png)
