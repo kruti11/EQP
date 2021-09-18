@@ -7,7 +7,7 @@ stipulated time. Also consists of timer and once it goes off. quiz will be submi
 
 After completing the questionnaire, the candidate may see his or her grades in a ranking.
 
-# Home Page to login as Paper Setter or student
+## Home Page to login as Paper Setter or student
 
 
 
@@ -17,7 +17,7 @@ After completing the questionnaire, the candidate may see his or her grades in a
 
 
 
-# Student registration 
+## Student registration 
 
 
 
@@ -27,7 +27,7 @@ After completing the questionnaire, the candidate may see his or her grades in a
 
 
 
-# Student Login Page
+## Student Login Page
 
 
 
@@ -37,7 +37,7 @@ After completing the questionnaire, the candidate may see his or her grades in a
 
 
 
-# Question Setter Login Page
+## Question Setter Login Page
 
 
 
@@ -46,7 +46,7 @@ After completing the questionnaire, the candidate may see his or her grades in a
 
 
 
-# Questions to be added
+## Questions to be added
 
 
 
@@ -54,7 +54,7 @@ After completing the questionnaire, the candidate may see his or her grades in a
 
 
 
-# Instructions Page
+## Instructions Page
 
 
 ![op6](https://user-images.githubusercontent.com/66712494/133869538-4773f851-3caf-4aaa-9dc3-764616e88fb1.png)
